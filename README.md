@@ -6,7 +6,7 @@
 
 > Curso: Desarrollo Web con HTML |  
 > Martes y Viernes 10hs a 12hs (Arg) | 
-> 9 clases desde 03/03/2023 hasta 07/02/2023 |  
+> 9 clases desde 03/03/2023 hasta 04/04/2023 |  
 > Código: 63261 |  
 > sensei: Marcos Pinardi |  
 
