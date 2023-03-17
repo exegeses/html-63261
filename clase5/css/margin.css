@@ -1,0 +1,35 @@
+body{
+    background-color: #8d8f8f;
+    color: #3c3c3c;
+    font-family: sans-serif;
+}
+main{
+    width: 500px;
+    margin: auto; /* centrar la caja */
+    background-color: #fefefe;
+}
+/* selectores de id */
+#verde{
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: #56fb69;
+}
+#naranja{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background-color: #fbcc56;
+}
+#violeta{
+    width: 120px;
+    height: 120px;
+    margin: 70px;
+    background-color: #d456fb;
+}
+
+footer{
+    height: 50px;
+    background-color: #575757;
+}
