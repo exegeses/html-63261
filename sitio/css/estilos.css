@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* globales */
+body{
+    color: #3C3C3C;
+    font-family: Raleway, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header a{
+        color: #3C3C3C;
+        font-weight: 600;
+    }
+    header a img{
+        vertical-align: middle;
+        margin: 0px 8px;
+    }
+
+    header nav a{
+        padding: 12px;
+    }
+
+/* main */    
+main{
+    width: 960px;
+    margin: auto;
+}
+
+/* hero-banner */    
+#hero-banner{
+    height: 450px;
+    /* imagen de fondo */
+    background-image: url(../imgs/hero-banner.jpg);
+    background-size: 960px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
