@@ -50,4 +50,31 @@ main{
     background-size: 960px;
     background-repeat: no-repeat;
     background-position: center center;
+    display: flex;
+    align-items: center;
 }
+    #hero-banner h1{
+        color: #fff;
+        /* padding-top: 192px;
+        padding-left: 150px; */
+        width: 290px;
+        margin-left: 150px;
+        font-size: 32px;
+    }
+
+/* sección promos */
+#promos{
+    height: 382px;
+    margin-top: 52px;
+    background-color: #FAF0E9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    #promos article{
+        width: 256px;
+    }
+    #promos h2{
+        font-size: 16px;
+        margin: 12px 0px;
+    }
