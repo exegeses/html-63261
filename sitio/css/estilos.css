@@ -78,3 +78,60 @@ main{
         font-size: 16px;
         margin: 12px 0px;
     }
+
+/* sección servicios */
+#servicios{
+    width: 680px;
+    margin: 52px auto 0px auto;
+    height: 372px;
+    display: flex;
+    flex-wrap: wrap; /* respeta anchos del contenido */
+    column-gap: 100px;
+    row-gap: 32px;
+}
+    #servicios h2{
+        text-align: center;
+        width: 100%;
+    }
+    #servicios a{
+        display: block;
+        width: 160px;
+        height: 140px;
+        border: 1px solid #3C3C3C;
+        border-radius: 12px;
+        font-weight: 600;
+        color: #3C3C3C;
+        text-align: center;
+        transition: 500ms;
+    }
+    #servicios a:hover{
+        background-color: #3c3c3c;
+        color: #fff;
+    }
+
+    .material-symbols-outlined{
+        font-size: 56px;
+        margin: 20px 52px;
+    }
+
+/* footer */
+footer{
+    width: 960px;
+    margin: 52px auto 0px auto;
+    height: 160px;
+    background-color: #3C3C3C;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer a{
+        color: #fff;
+    }
+    footer a img{
+        margin: 0px 8px 0px 12px;
+        vertical-align: middle;
+    }
+    footer div a img{
+        width: 24px;
+    }
